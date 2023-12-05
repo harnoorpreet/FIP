@@ -215,37 +215,7 @@ Couples Resort Responsive Build
   }
  
  
- #why-choose-us-hero-con {
-   background: url(../images/why-choose-us-hero.jpg) no-repeat;
-   height: 195px;
- }
  
- #why-choose-us-heading-box {
-    align-self: end;
- }
- 
- .why-choose-us-image {
-    float: left;
-    margin-right: 20px;
-    margin-top: 30px;
- }
- 
- .why-choose-us-image-con h2 {
-    font-size: 14px;
-    margin-bottom: 20px;
-    margin-top: 30px;
- }
- 
- .why-choose-us-image-con p {
-    font-size: 12px;
-    margin-bottom: 20px;
-    line-height: 20px;
- }
- 
- .why-choose-us-image-con a {
-    color: #707070;
-    font-size: 12px;
- }
  
   #why-choose-us-bottom-nav {
     background-color: #CF6666;
@@ -273,28 +243,7 @@ Couples Resort Responsive Build
  
  /* 6. ---About & FAQ--- */
  
- #about-hero-con {
-    background: url(../images/about-us-hero.jpg) no-repeat;
-    height: 195px;
- }
  
- #about-hero-heading-box {
-    align-self: end;
- }
- 
- #about-us-text {
-    padding-bottom: 60px;
- }
- 
- #about-us-text p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 22px;
- }
- 
- #about-us-text-column2 {
-    font-style: italic;
- }
  
  #faq-con {
     background-color: #f4f4f4;
@@ -348,6 +297,7 @@ Couples Resort Responsive Build
  #contact-hero-con {
     background: url(../images/contact-hero.jpg);
     height: 195px;
+    
  }
  
  #contact-hero-heading-box {
