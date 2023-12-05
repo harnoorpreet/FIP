@@ -273,28 +273,7 @@ Couples Resort Responsive Build
  
  /* 6. ---About & FAQ--- */
  
- #about-hero-con {
-    background: url(../images/about-us-hero.jpg) no-repeat;
-    height: 195px;
- }
  
- #about-hero-heading-box {
-    align-self: end;
- }
- 
- #about-us-text {
-    padding-bottom: 60px;
- }
- 
- #about-us-text p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    line-height: 22px;
- }
- 
- #about-us-text-column2 {
-    font-style: italic;
- }
  
  #faq-con {
     background-color: #f4f4f4;
