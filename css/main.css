@@ -239,6 +239,44 @@ Couples Resort Responsive Build
     color: #fff;
  }
  
+ .chef-image {
+   float: right;
+   margin-right: 10px;
+   margin-top: 30px;
+}
+
+.chef-image-con h2 {
+   font-size: 12px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
+.chef-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   margin-top: 10px;;
+   line-height: 20px;
+}
+
+
+
+ .wine-seperator-image {
+   float:right;
+   margin-right:10px;
+   margin-top: 20px;
+}
+ .wine-seperator-image-con h2 {
+   font-size: 12px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+ }
+ .wine-seperator-image-con p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   margin-top: 10px;;
+   line-height: 20px;
+ }
+ 
  
  
  /* 6. ---About & FAQ--- */
