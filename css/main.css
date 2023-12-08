@@ -162,6 +162,11 @@ Couples Resort Responsive Build
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
+    text-align: center;
+ }
+ #hero-summary h2 {
+   text-align: center;
+   padding-bottom: 20px;
  }
  
  /* 4. ---Main Hero Image Contact--- */
@@ -190,54 +195,8 @@ Couples Resort Responsive Build
     padding-bottom: 30px;
  }
  
- /* 5. ---Why Choose Us--- */
  
-  #why-choose-us-nav {
-    padding-top: 20px;
- }
- 
- #why-choose-us-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
- }
- #why-choose-us-nav ul li {
-    margin-bottom: 15px;
- }
- 
- #why-choose-us-nav ul li a {
-   color: inherit;
-   padding: 5px;
- }
- 
- #why-choose-us-nav ul li a.selected {
-    border-left: #9a2018 solid 5px;
-  }
- 
- 
- 
- 
-  #why-choose-us-bottom-nav {
-    background-color: #CF6666;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
- }
- 
- #why-choose-us-bottom-nav ol {
-    list-style-type: none;
-    margin: 0 0 0 20px;
-    padding: 0;
- }
- 
- #why-choose-us-bottom-nav ol li {
-    display: inline;
- }
- 
- #why-choose-us-bottom-nav ol li a {
-    padding: 5px;
-    color: #fff;
- }
+
  
  .chef-image {
    float: right;
@@ -260,17 +219,17 @@ Couples Resort Responsive Build
 
 
 
- .wine-seperator-image {
+ .wine-spectator-image {
    float:right;
    margin-right:10px;
    margin-top: 20px;
 }
- .wine-seperator-image-con h2 {
-   font-size: 12px;
+ .wine-spectator-image-con h2 {
+   font-size: 14px;
    margin-bottom: 20px;
    margin-top: 30px;
  }
- .wine-seperator-image-con p {
+ .wine-spectator-image-con p {
    font-size: 12px;
    margin-bottom: 20px;
    margin-top: 10px;;
@@ -430,3 +389,30 @@ Couples Resort Responsive Build
     line-height: 18px;
     font-size: 11px;
  }
+ input[type="checkbox"] {
+   display:inline;
+   margin:5px;
+ }
+
+ input[type="checkbox"]:checked + span::after {
+   content: "\1F44D";
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background-color: green;
+   border: 4px solid #20b320;
+   font-size: 24px;
+   position: absolute;
+   top: 10px;
+   right: 18px;
+   animation: fadeIn 0.7s;
+}
+@keyframes fadeIn {
+   from {opacity: 0;}
+   to{opacity: 1;}
+}
+.mark {
+   border-radius: 20px;
+   padding: 1%;
+   background-color:rgb(83, 49, 197);
+}
