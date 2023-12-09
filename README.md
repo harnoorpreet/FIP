@@ -1,6 +1,5 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
+
+## Project Name
 
  Couples Resort Website
 
@@ -21,6 +20,7 @@ This project contains a Couple's Resort Website that includes home page, dining 
 1. Clone the repository.
    ```bash
    https://github.com/harnoorpreet/FIP.git
+2. Download zip folder and open in visual studio code.
 
 ## Usage
 Welcome to the Couples Resort website, your gateway to a world of romance and luxury. This guide will help you navigate the site and make the most of your experience.
@@ -57,9 +57,16 @@ As we continue to grow, our focus remains on crafting magical moments for couple
 
 Thank you for choosing us for your romantic escape!
 
+## Credits
+ Project Contributors:
+  - Marco De Luca -Provides assistance using github best practices,animations,  pseudo-selectors, html and css styling. 
+  - Robert Haalf - Provides assistance in html coding and css styling.
+  - Jarrod - Helps to maintain the principals of designs, elements of design and typography.
+  - Justin Brunner - Gave lessones regarding time management to meet the project goal. 
+  - Harnoorpreet Kaur -Author
+  
+  Special Thanks:
+  Interactive Media Design Team members-For providing inspiration and support.
 ## License
 This project is licensed under the [MIT License](LICENSE).
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
 
