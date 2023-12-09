@@ -445,6 +445,7 @@ Couples Resort Responsive Build
  input[type="checkbox"] {
     display:inline;
     margin:5px;
+   
   }
  
   input[type="checkbox"]:checked + span::after {
@@ -452,12 +453,12 @@ Couples Resort Responsive Build
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: green;
-    border: 4px solid #20b320;
+    background-color:red;
+    border: 4px solid orange;
     font-size: 24px;
-    position: absolute;
+    position: relative;
     top: 10px;
-    right: 18px;
+    right: -10px;
     animation: fadeIn 0.7s;
  }
  @keyframes fadeIn {
@@ -467,7 +468,7 @@ Couples Resort Responsive Build
  .mark {
     border-radius: 20px;
     padding: 1%;
-    background-color:rgb(83, 49, 197);
+    background-color: green;
  }
  input[type="submit"] {
     animation: pulse 2s infinite;
@@ -493,3 +494,5 @@ Couples Resort Responsive Build
       transform: translateY(-10px);
     }
  }
+
+ 
